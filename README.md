@@ -22,7 +22,7 @@ This application is a Java Swing-based project designed for managing and calcula
 
 3. **Database Setup**:
    - Create a database using the DBMS of your choice.
-   - Configure the database connection in the `application.properties` file or directly in the Java code:
+   - Configure the database connection in the directly in the Java code (the class DB_Connection):
      - **URL**: The JDBC URL for your database.
      - **USERNAME**: The database username.
      - **PASSWORD**: The database password.
