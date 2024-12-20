@@ -22,7 +22,6 @@ This application is a Java Swing-based project designed for managing and calcula
 
 3. **Database Setup**:
    - Create a database using the DBMS of your choice.
-   - Set up a table named `Notes` with at least a `value` column to store numeric grades.
    - Configure the database connection in the `application.properties` file or directly in the Java code:
      - **URL**: The JDBC URL for your database.
      - **USERNAME**: The database username.
