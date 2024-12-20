@@ -1,7 +1,7 @@
 # Notes Management Application with Swing
 
 ## Description
-This application is a Java Swing-based project designed for managing and calculating class averages from a database of notes. It uses **Apache Maven** for dependency management and build automation.
+This application is a Java Swing-based project designed for managing and calculating class averages from a database of notes. It uses **Maven** for dependency management and build automation.
 
 ---
 
@@ -11,13 +11,6 @@ This application is a Java Swing-based project designed for managing and calcula
    - Verify the installation:
      ```bash
      java -version
-     ```
-
-2. **Apache Maven**:
-   - Ensure Maven is installed on your system.
-   - Verify the installation:
-     ```bash
-     mvn -version
      ```
 
 3. **Database Setup**:
@@ -36,9 +29,4 @@ Clone the project repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-repo/notes-management-swing.git
 cd notes-management-swing
-```
-### 1. Build an run the project
-```bash
-mvn clean install
-mvn exec:java -Dexec.mainClass="com.java.learning.NotesManagementWithSwing"
 ```
